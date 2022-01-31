@@ -1,0 +1,15 @@
+:host {
+    display: flex;
+    height: 100%;
+}
+
+form {
+    display: flex;
+    width: 1000%;
+    flex-direction: column;
+
+    mat-form-field {
+        width: 100%;
+        max-width: 500px;
+    }
+}

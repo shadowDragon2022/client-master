@@ -1,0 +1,19 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.cardinal {
+    display: flex;
+    width: 100px;
+    height:auto;
+
+    img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:315px) {
+    .cardinal {
+        display: none;
+    }
+}
